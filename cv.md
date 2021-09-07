@@ -1,13 +1,17 @@
 # Ian Iusov
-___
+
 ## Junior Frontend Developer
-___
-### Contact Information:
+
+### Contact Information
 phone: +7 (911) 843-59-36\
-telegram: @hsifananab\
 email: <hsif-dev@gmail.com>\
-[GitHub][1]
+[GitHub][1]\
+[Telegram][2]\
+
+### About me
+*This section is under construction\
+Check back soon*
 
 
 [1]:https://github.com/hsif-dev
-___
+[2]:https://t.me/hsifananab
