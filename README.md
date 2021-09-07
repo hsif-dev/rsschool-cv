@@ -1,1 +1,1 @@
-# rsschool-cv
+https://hsif-dev.github.io/rsschool-cv/cv
