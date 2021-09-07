@@ -55,7 +55,12 @@ ___
 ### Courses
 1. [Code Basics JavaScript][4] `completed`
 1. [HTML Academy][5] `in progress`
-1. ![Codewars][6]
+![Codewars][6]
+
+___
+### Language
+* **Russian** - Native 
+* **English** - B1 Intermediate
 
 
 [1]:https://github.com/hsif-dev
