@@ -1,15 +1,17 @@
 # Ian Iusov
 
-## Junior Frontend Developer
+### Junior Frontend Developer
 ### Contact Information
 phone: +7 (911) 843-59-36\
 email: <hsif-dev@gmail.com>\
 [GitHub][1]\
 [Telegram][2]
+
 ___
 ### About me
 *This section is under construction\
 Check back soon*
+
 ___
 ### Skills
 * HTML
@@ -17,6 +19,7 @@ ___
 * JS Basics
 * Git / GitHub
 * Photoshop, Figma
+
 ___
 ### Code Example
 #### [The Hashtag Generator][3]
@@ -26,7 +29,8 @@ Here's the deal:
 * All words must have their first letter capitalized.
 * If the final result is longer than 140 chars it must return `false`.
 * If the input or the result is an empty string it must return `false`.
-```
+
+```javascript
 function generateHashtag (str) {
   if (str.trim().length === 0) {
     return false;
