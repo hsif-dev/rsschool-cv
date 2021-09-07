@@ -1,7 +1,8 @@
 # Ian Iusov
 
-___
 ### Junior Frontend Developer
+
+___
 ### Contact Information
 phone: +7 (911) 843-59-36\
 email: <hsif-dev@gmail.com>\
@@ -55,6 +56,7 @@ ___
 ### Courses
 1. [Code Basics JavaScript][4] `completed`
 1. [HTML Academy][5] `in progress`\
+
 ![Codewars][6]
 
 ___
