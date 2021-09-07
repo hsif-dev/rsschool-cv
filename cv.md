@@ -54,7 +54,7 @@ function generateHashtag (str) {
 ___
 ### Courses
 1. [Code Basics JavaScript][4] `completed`
-1. [HTML Academy][5] `in progress`
+1. [HTML Academy][5] `in progress`\
 ![Codewars][6]
 
 ___
