@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    transition: color .1s linear;
+}
+
+a:hover {
+    color: #a3bfd6;    
+}
+
+.dn {
+    display: none;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header,
+.footer {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #a3bfd6;
+}
+
+.header__inner {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Section */ 
+.section {
+    padding-top: 30px;
+}
+
+.section:last-child {
+    padding-bottom: 30px;
+}
+
+.section__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.section__title {
+    width: 33%;
+    text-transform: uppercase;
+}   
+
+.section__item {
+    width: 66%;
+}
+
+.section__title, 
+.section__item {
+    border-top: 3px solid #a3bfd6;
+    margin: 0 -50px;
+    padding-top: 20px;
+}
+
+.section__list {
+    list-style-type: none;
+}
+
+.section-contacts {
+    margin: auto 100px;
+}
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.contacts__item {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 -50px;
+}
+
+/* Skills */
+
+.courses__link {
+    text-transform: uppercase;
+}
+
+/* Example */
+
+.example__description-list {
+    padding-left: 40px;
+}
+
+/* Footer */
+
+.footer__item {
+    font-size: 30px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
