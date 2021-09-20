@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39f4b021a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
     <title>Ian Iusov - Front End Developer</title>
 </head>
 <body>
@@ -101,12 +104,12 @@
                                     </p>
                                 </div>
                                 <div class="example__code">
-                                    <pre class="javascript"> 
+                                    <pre> 
                                         <code>
 function solution(number){
     var sum = 0;
     
-    for (var i = 1;i < number; i++) {
+    for (var i = 1; i < number; i++) {
         if (i % 3 == 0 || i % 5 == 0) {
         sum += i;
         }
