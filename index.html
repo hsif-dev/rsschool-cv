@@ -15,8 +15,13 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <h1 class="header__title">Ian Iusov</h1>
-                <h3 class="header__subtitle">Junior Front End Developer</h3>
+                <div class="header__inner-left">
+                    
+                </div>
+                <div class="header__inner-right">
+                    <h1 class="header__title">Ian Iusov</h1>
+                    <h3 class="header__subtitle">Junior Front End Developer</h3>
+                </div>                 
             </div>
         </div>
     </header>
@@ -85,37 +90,29 @@
                         <div class="example">
                             <div class="example__inner">
                                 <h4 class="example__title">
-                                    <a href="https://www.codewars.com/kata/52449b062fb80683ec000024" class="example__link">The Hashtag Generator</a>
+                                    <a href="https://www.codewars.com/kata/514b92a657cdc65150000006/javascript" class="example__link">Multiples of 3 or 5
+                                    </a>
                                 </h4>
                                 <div class="example__description">
-                                    Here’s the deal:
-                                    <ul class="example__description-list">
-                                        <li class="example__description-item">It must start with a hashtag <code>#</code>.</li>
-                                        <li class="example__description-item">All words must have their first letter capitalized.</li>
-                                        <li class="example__description-item">If the final result is longer than 140 chars it must return false</li>
-                                        <li class="example__description-item">If the input or the result is an empty string it must return false.</li>
-                                    </ul>
+                                    <p>
+                                        If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+                                        Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+                                        Note: If the number is a multiple of both 3 and 5, only count it once.
+                                    </p>
                                 </div>
                                 <div class="example__code">
                                     <pre class="javascript"> 
                                         <code>
-    function generateHashtag (str) {
-        if (str.trim().length === 0) {
-            return false;
+function solution(number){
+    var sum = 0;
+    
+    for (var i = 1;i < number; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+        sum += i;
         }
-        const wordList = str.split(' ');
-        
-        let result = '#';
-        for (let word of wordList) {
-            let capitalizeWord = word.charAt(0).toUpperCase() + word.slice(1);
-            result += capitalizeWord;
-        }
-        
-        if (result.length > 140) {
-            return false;
-        }
-        return result;
     }
+    return sum;
+}
                                         </code>
                                     </pre>
                                 </div>
