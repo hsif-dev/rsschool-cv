@@ -54,11 +54,31 @@ a:hover {
 
 .header__inner {
     width: 100%;
-    max-width: 950px;
+    max-width: 750px;
     margin: 0 auto;
 
     text-align: center;
     text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__inner-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.header__title,
+.header__subtitle {
+    width: 100%;
+}
+
+.header__photo {
+    width: 250px;
+    box-shadow: 12px 29px 81px 0px rgba(3, 3, 31, 0.75);
 }
 
 /* Section */ 
@@ -193,6 +213,15 @@ a:hover {
 
     .section-contacts {
         margin: auto 50px;
+    }
+
+    /* Header */
+    .header__inner {
+        flex-direction: column;
+    }
+
+    .header__photo {
+        margin-bottom: 40px;
     }
 
     /* Example */
